@@ -6,8 +6,6 @@ def test_function(filePath, targetString):
                 helper= line.count(targetString)
                 
                 output+=helper
-                if helper!=0:
-                    print(output)
                 
         return output
     except FileNotFoundError:
